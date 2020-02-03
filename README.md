@@ -1,14 +1,9 @@
-# CloudCare Backend
+# CloudCare Backend project
 
-* Para distribución de carpeta usé clean architecture.
-* Para las acciones HTTP rest he usado lo más parecido posible a lo estandar (https://www.w3.org/2001/sw/wiki/REST)
-* La api solo es masiva para GET.
+* Some clean architecture issues tried to be included in this project.
+* Standard has been followed in order to define http verbs and their respective scope (https://www.w3.org/2001/sw/wiki/REST)
+* Only GET can retrieve single or multiple objects.
 
-## Material de apoyo
+## Commands
 
-* https://spring.io/guides/gs/rest-service/#scratch
-* https://start.spring.io/
-
-## Comandos
-
-Ver [Makefile](Makefile)
+See [Makefile](Makefile)
